@@ -30,4 +30,16 @@ nav ul {
     list-style-type: none;
     gap: 20px;
     padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2E2E2E;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #F76F53;
 }
