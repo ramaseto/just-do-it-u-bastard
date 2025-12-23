@@ -43,3 +43,9 @@ nav a {
 nav a:hover {
     color: #F76F53;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
