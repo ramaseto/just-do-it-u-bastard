@@ -1,87 +1,76 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    position: sticky;
-    top: 0;
-    background-color: #f2f0e39d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 5px;
 }
-
 section {
-    padding: 100px 20px;
-    max-width: 800px;
-    margin: 0 auto;
+  padding: 100px 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
-
 body {
-    font-family: Futura, sans-serif;
-    background-color: #F2F0E3;
-    padding: 50px;
+  font-family: Futura, sans-serif;
+  background-color: #f2f0e3;
+  padding: 50px;
 }
-
 h1 {
-    color: #2E2E2E;
+  color: #2e2e2e;
 }
-
 img {
-    width: 300px;
-    border-radius: 15px;
+  width: 300px;
+  border-radius: 15px;
 }
-
 nav ul {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
-
 nav a {
-    text-decoration: none;
-    color: #2E2E2E;
-    font-weight: bold;
-    font-size: 18px;
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: bold;
+  font-size: 18px;
 }
-
 nav a:hover {
-    color: #F76F53;
+  color: #f76f53;
 }
-
 @media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
+  body {
+    padding: 10px;
+  }
 
-    header {
-        flex-direction: column;
-        gap: 20px;
-    }
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
-
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
 #highlight {
-    color: #F76F53;
-    font-weight: bold;
+  color: #f76f53;
+  font-weight: bold;
 }
-
 #site-footer {
-    text-align: center;
-    font-size: 12px;
-    color: #2E2E2E;
-    margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  color: #2e2e2e;
+  margin-top: 40px;
 }
-
 #home {
-    text-align: center;
+  text-align: center;
 }
-
 #home h2 {
-    font-size: 4rem;
-    margin-bottom: 10px;
+  font-size: 4rem;
+  margin-bottom: 10px;
 }
-
 #home p {
-    font-size: 1.5rem;
-    font-weight: lighter;
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
